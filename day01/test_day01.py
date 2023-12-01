@@ -30,3 +30,6 @@ def test_findRight():
     assert day01.findRight('asdfone3', searchterms) == 3
     assert day01.findRight('sevenine', searchterms) == 9
 
+def test_part2(): 
+    assert day01.part2(['ab12', 'b6c', 'onetwothree', 'arnfionefl5']) == 106
+
