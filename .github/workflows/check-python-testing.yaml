@@ -2,7 +2,7 @@ name: check-test-success
 run-name: Check if all tests are successful
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 jobs:
   check-pytest-success:
     runs-on: ubuntu-latest
