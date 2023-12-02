@@ -35,3 +35,4 @@ def test_importFile():
     assert len(gameList) == 5
     assert (isinstance(game, day02.Game) for game in gameList)
 
+
