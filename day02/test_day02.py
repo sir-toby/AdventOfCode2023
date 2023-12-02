@@ -31,7 +31,7 @@ def test_import_line():
     assert game.draws[2].green == 2
 
 def test_importFile():
-    gameList = day02.importFile('./input/test1.txt')
+    gameList = day02.importFile('./day02/input/test1.txt')
     assert len(gameList) == 5
     assert (isinstance(game, day02.Game) for game in gameList)
 

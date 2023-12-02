@@ -1,7 +1,7 @@
 def main(inputFile): 
     with open(inputFile,'r') as myfile: 
         inputList = myfile.readlines()
-    print(inputList)
+    #print(inputList)
     print(part1(inputList))
     print(part2(inputList))
 
